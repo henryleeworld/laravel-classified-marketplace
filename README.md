@@ -1,4 +1,4 @@
-# Laravel 6 分類廣告平台
+# Laravel 7 分類廣告平台
 
 在網路人口如此快速成長的時代裡，懂得利用網路人潮流量的人將更有機會成功拓展生意，歡迎各行各業的人來刊登免費廣告。Laravel 6 分類廣告平台主要是用的 [QuickAdminPanel](https://quickadminpanel.com) 生成的，除了一些定制代碼，可依需求彈性改造的工具。
 
