@@ -1,6 +1,6 @@
 # Laravel 7 分類廣告平台
 
-在網路人口如此快速成長的時代裡，懂得利用網路人潮流量的人將更有機會成功拓展生意，歡迎各行各業的人來刊登免費廣告。Laravel 6 分類廣告平台主要是用的 [QuickAdminPanel](https://quickadminpanel.com) 生成的，除了一些定制代碼，可依需求彈性改造的工具。
+在網路人口如此快速成長的時代裡，懂得利用網路人潮流量的人將更有機會成功拓展生意，歡迎各行各業的人來刊登免費廣告。Laravel 7 分類廣告平台主要是用的 [QuickAdminPanel](https://quickadminpanel.com) 生成的，除了一些定制代碼，可依需求彈性改造的工具。
 
 ## 使用方式
 - 把整個專案複製一份到你的電腦裡，這裡指的「內容」不是只有檔案，而是指所有整個專案的歷史紀錄、分支、標籤等內容都會複製一份下來。
@@ -12,7 +12,7 @@ $ git clone
 ```sh
 $ composer install
 ```
-- 產⽣ Laravel 要使用的一組 32 字元長度的隨機字串 APP_KEY 並存在 .env 內。
+- 產生 Laravel 要使用的一組 32 字元長度的隨機字串 APP_KEY 並存在 .env 內。
 ```sh
 $ php artisan key:generate
 ```
