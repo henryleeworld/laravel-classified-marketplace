@@ -1,15 +1,15 @@
 <?php
 
-namespace App;
+namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-class Category extends Model
+class Role extends Model
 {
     use SoftDeletes;
 
-    public $table = 'categories';
+    public $table = 'roles';
 
     protected $dates = [
         'created_at',
@@ -18,15 +18,19 @@ class Category extends Model
     ];
 
     protected $fillable = [
-        'name',
-        'icon',
+        'title',
         'created_at',
         'updated_at',
         'deleted_at',
     ];
 
-    public function companies()
+    public function users()
     {
-        return $this->belongsToMany(Company::class);
+        return $this->belongsToMany(User::class);
+    }
+
+    public function permissions()
+    {
+        return $this->belongsToMany(Permission::class);
     }
 }

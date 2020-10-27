@@ -1,15 +1,15 @@
 <?php
 
-namespace App;
+namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-class City extends Model
+class Category extends Model
 {
     use SoftDeletes;
 
-    public $table = 'cities';
+    public $table = 'categories';
 
     protected $dates = [
         'created_at',
@@ -19,6 +19,7 @@ class City extends Model
 
     protected $fillable = [
         'name',
+        'icon',
         'created_at',
         'updated_at',
         'deleted_at',
@@ -26,6 +27,6 @@ class City extends Model
 
     public function companies()
     {
-        return $this->hasMany(Company::class, 'city_id', 'id');
+        return $this->belongsToMany(Company::class);
     }
 }

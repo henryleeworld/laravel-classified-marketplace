@@ -1,6 +1,6 @@
-# Laravel 7 分類廣告平台
+# Laravel 8 分類廣告平台
 
-在網路人口如此快速成長的時代裡，懂得利用網路人潮流量的人將更有機會成功拓展生意，歡迎各行各業的人來刊登免費廣告。Laravel 7 分類廣告平台主要是用的 [QuickAdminPanel](https://quickadminpanel.com) 生成的，除了一些定制代碼，可依需求彈性改造的工具。
+在網路人口如此快速成長的時代裡，懂得利用網路人潮流量的人將更有機會成功拓展生意，歡迎各行各業的人來刊登免費廣告。Laravel 8 分類廣告平台主要是用的 [QuickAdminPanel](https://quickadminpanel.com) 生成的，除了一些定制代碼，可依需求彈性改造的工具。
 
 ## 使用方式
 - 把整個專案複製一份到你的電腦裡，這裡指的「內容」不是只有檔案，而是指所有整個專案的歷史紀錄、分支、標籤等內容都會複製一份下來。
@@ -26,7 +26,7 @@ $ php artisan migrate --seed
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/Fe1ubqG.png)
+![](https://i.imgur.com/jeCh6xo.png)
 > 依據城市或形態來連結用戶與周圍實體店面的商家
 
 ![](https://i.imgur.com/1GJvdv1.png)

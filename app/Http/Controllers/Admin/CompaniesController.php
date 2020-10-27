@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers\Admin;
 
-use App\Category;
-use App\City;
-use App\Company;
+use App\Models\Category;
+use App\Models\City;
+use App\Models\Company;
 use App\Http\Controllers\Controller;
 use App\Http\Controllers\Traits\MediaUploadingTrait;
 use App\Http\Requests\MassDestroyCompanyRequest;

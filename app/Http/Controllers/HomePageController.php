@@ -3,8 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Company;
-use App\Category;
+use App\Models\Company;
+use App\Models\Category;
 
 class HomePageController extends Controller
 {

@@ -24,9 +24,9 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         view()->composer('*', function($view) {
-            $view->with('search_categories', \App\Category::all());
-            $view->with('categories_all', \App\Category::all());
-            $view->with('search_cities', \App\City::all());
+            $view->with('search_categories', \App\Models\Category::all());
+            $view->with('categories_all', \App\Models\Category::all());
+            $view->with('search_cities', \App\Models\City::all());
         });
     }
 }
