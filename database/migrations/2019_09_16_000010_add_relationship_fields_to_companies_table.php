@@ -9,9 +9,7 @@ class AddRelationshipFieldsToCompaniesTable extends Migration
     public function up()
     {
         Schema::table('companies', function (Blueprint $table) {
-            $table->unsignedInteger('city_id')->nullable();
-
-            $table->foreign('city_id', 'city_fk_344254')->references('id')->on('cities');
+            $table->foreignId('city_id')->nullable()->constrained();
         });
     }
 }
